@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPI Alumni Maps</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            line-height: 1.6;
+            background: #f7f7f7;
+            color: #333;
+        }
+
+        h1 {
+            color: #990000;
+        }
+
+        .box {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,.15);
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1.15em;
+        }
+
+        li {
+            margin: 18px 0;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #666;
+            font-size: .9em;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>RPI Alumni Maps</h1>
+
+<p>
+These interactive maps show the approximate distribution of RPI alumni
+in the Atlanta metropolitan area using alumni directory information.
+</p>
+
+<ul>
+
+<li>
+<a href="atlanta_alumni_age_group_density_map.html">
+Age Group Density Map
+</a>
+</li>
+
+<li>
+<a href="atlanta_alumni_degree_group_density_map.html">
+Degree Group Density Map
+</a>
+</li>
+
+</ul>
+
+<div class="footer">
+Created by Ralph Kramer using Python and Plotly.
+</div>
+
+</div>
+
+</body>
+</html>
